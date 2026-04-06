@@ -1,0 +1,72 @@
+.edit-address-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 20px;
+    margin-left: 47px;
+}
+
+.edit-address-group {
+    margin-left: 440px;
+    margin-bottom: 75px;
+    justify-content: space-between;
+}
+
+.edit-address-postcode-label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.edit-address-postcode-input {
+    display: flex;
+    width: 640px;
+    height: 50px;
+}
+
+.edit-address-address-label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.edit-address-address-input {
+    display: flex;
+    width: 640px;
+    height: 50px;
+}
+
+.edit-address-building-label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.edit-address-building-input {
+    display: flex;
+    width: 640px;
+    height: 50px;
+}
+
+.edit-address-postcode-error,
+.edit-address-address-error {
+    color: hsl(0, 100%, 50%);
+}
+
+.update-address-button {
+    margin-top: 120px;
+    margin-left: 440px;
+}
+
+.update-address-button-submit {
+    background-color: #ff5353;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    width: 640px;
+    height: 60px;
+}
+

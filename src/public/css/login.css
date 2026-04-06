@@ -1,0 +1,91 @@
+.login {
+    max-width: 1220px;
+    padding: 35px 15px;
+    margin: 0 auto;
+}
+
+.login-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+.login-form {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.login-group {
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.login-email-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 457px;
+}
+
+.login-password-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 490px;
+}
+
+.login-email-input {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    border-radius: 4px;
+    border: solid 1px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.login-password-input {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    border-radius: 4px;
+    border: solid 1px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.login-email-error {
+    color: hsl(0, 100%, 50%);
+}
+
+.login-password-error {
+    color: hsl(0, 100%, 50%);
+}
+
+.login-buttons {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.login-button-submit {
+    background-color: #ff5353;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    width: 600px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.register-button-link {
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 380px;
+    font-size: 18px;
+}

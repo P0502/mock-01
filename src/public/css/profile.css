@@ -1,0 +1,121 @@
+.profile-inner {
+    max-width: 1220px;
+    padding: 35px 15px;
+    margin: 0 auto;
+}
+
+.profile-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+.profile-form {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.profile-image-inner {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+
+.profile-group {
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    background-color: #c4c4c4;
+}
+
+.profile-image-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff5353;
+    border: solid 2px #ff5353;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+    width: 180px;
+    height: 50px;
+    margin-left: 33px;
+    margin-right: 245px;
+}
+
+.profile-name-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 485px;
+}
+
+.profile-postcode-label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 500px;
+}
+
+.profile-address-label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 543px;
+}
+
+.profile-building-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 523px;
+}
+
+.profile-image-input {
+    display: none;
+}
+
+.profile-name-input,
+.profile-postcode-input,
+.profile-address-input,
+.profile-building-input {
+    width: 600px;
+    height: 50px;
+    border-radius: 4px;
+    border: solid 1px;
+    margin-left: 155px;
+    margin-bottom: 40px;
+    margin-top: 3px;
+    display: flex; 
+}
+
+.profile-image-error,
+.profile-name-error,
+.profile-postcode-error,
+.profile-address-error {
+    color: hsl(0, 100%, 50%);
+}
+
+.profile-button-inner {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 9px;
+}
+
+.profile-button {
+    background-color: #ff5353;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    width: 600px;
+    height: 60px;
+}

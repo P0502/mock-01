@@ -1,0 +1,114 @@
+.edit-profile {
+    max-width: 1220px;
+    padding: 35px 15px;
+    margin: 0 auto;
+}
+
+.edit-profile-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+.edit-profile-form {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.edit-profile-image {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+
+.profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    background-color: #c4c4c4;
+}
+
+.edit-profile-image-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff5353;
+    border: solid 2px #ff5353;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+    width: 180px;
+    height: 50px;
+    margin-left: 33px;
+    margin-right: 245px;
+}
+
+.edit-profile-name-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 485px;
+}
+
+.edit-profile-postcode-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 500px;
+}
+
+.edit-profile-address-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 543px;
+}
+
+.edit-profile-building-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 523px;
+}
+
+.edit-profile-image-input {
+    display: none;
+}
+
+.edit-profile-name-input,
+.edit-profile-postcode-input,
+.edit-profile-address-input,
+.edit-profile-building-input {
+    width: 600px;
+    height: 50px;
+    margin-left: 155px;
+    margin-bottom: 40px;
+    margin-top: 3px;
+    display: flex;
+}
+
+.edit-profile-image-error,
+.edit-profile-name-error,
+.edit-profile-postcode-error,
+.edit-profile-address-error {
+    color: hsl(0, 100%, 50%);
+}
+
+.update-profile-button {
+    margin-top: 70px;
+    width: 100%;
+    margin-left: 9px;
+}
+
+.update-profile-button-submit {
+    background-color: #ff5353;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    width: 600px;
+    height: 60px;
+}

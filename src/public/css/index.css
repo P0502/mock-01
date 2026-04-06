@@ -1,0 +1,84 @@
+.item-tabs {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0px;
+    border-bottom: 2px solid #a5a5a5;
+    padding-left: 20px;
+    height: 80px;
+    align-items: flex-end;
+}
+
+.tab-item {
+    text-decoration: none;
+    color: #a5a5a5;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 23px;
+    margin-left: 171px;
+}
+
+.tab-item-mylist {
+    text-decoration: none;
+    color: #a5a5a5;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    font-size: 23px;
+}
+
+.tab-item.active {
+    color: #ff5353;
+}
+
+.tab-item-mylist.active {
+    color: #ff5353;
+}
+
+.item-lists-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.item-lists {
+    width: 100%;
+}
+
+.item-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item-card {
+    width: 50px;
+    height: 40px;
+    padding-bottom: 350px;
+}
+
+.item-image {
+    width: 50px;
+}
+
+.item-image-inner {
+    width: 300px;
+    height: 300px;
+}
+
+.item-name {
+    width: 300px;
+}
+
+.item-name-label {
+    font-size:30px;
+}
+
+.sold-label {
+    font-size:30px;
+    color: hsl(0, 100%, 50%);
+    padding-left: 20px;
+}

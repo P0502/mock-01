@@ -1,0 +1,244 @@
+.sell-item {
+    max-width: 1220px;
+    padding: 35px 15px;
+    margin: 0 auto;
+}
+
+.sell-item-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+.sell-item-detail {
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px solid;
+    width: 600px;
+    margin-left: 155px;
+    color:#6d6d6d;
+}
+
+.sell-item-name-description {
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px solid;
+    width: 600px;
+    margin-left: 155px;
+    color: #6d6d6d;
+}
+
+.sell-item-form {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.sell-item-group {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+
+.sell-item-group {
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.sell-item-image-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 497px;
+}
+
+.sell-item-category-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 481px;
+}
+
+.sell-item-condition-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 481px;
+}
+
+.sell-item-name-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 520px;
+}
+
+.sell-item-brand-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 481px;
+}
+
+.sell-item-description-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 481px;
+}
+
+.sell-item-price-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 497px;
+}
+
+.sell-item-price-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.sell-item-price-input-wrapper-label {
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 30px;
+    top: 40%;
+    color: #333;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.sell-item-image-input {
+    display: none;
+}
+
+.item-image-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sell-item-image {
+    width: 600px;
+    height: 160px;
+    margin-left: 23px;
+    border: 1px dotted;
+    border-radius: 4px;
+}
+
+.sell-item-image-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    background-color: #fff;
+    color: #ff5353;
+    border: solid 2px #ff5353;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.2s;
+    width: 180px;
+    height: 50px;
+}
+
+.sell-item-category-option {
+    margin-top: 30px;
+    width: 650px;
+    margin-left: 85px;
+    text-align: left;
+}
+
+.sell-item-category-input {
+    display: none;
+}
+
+.sell-item-category-input:checked + .sell-item-category-text {
+    background-color: #ff5353;
+    border-color: #ff5353;
+    color: #fff;
+}
+
+.sell-item-category-text {
+    display: inline-block;
+    background-color: #fff;
+    color: #ff5353;
+    border: solid 2px #ff5353;
+    border-radius: 21px;
+    padding: 5px 16px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    transition: all 0.2s;
+}
+
+.sell-item-condition-select {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    border-radius: 4px;
+    border: solid 1px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 3px;
+}
+
+.sell-item-name-input,
+.sell-item-brand-input {
+    width: 600px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    border-radius: 4px;
+    border: solid 1px;
+    display: flex;
+}
+
+.sell-item-price-input {
+    width: 600px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    border-radius: 4px;
+    border: solid 1px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.sell-item-description-textarea {
+    width: 600px;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 10px;;
+    margin-top: 3px;
+    border-radius: 4px;
+    border: solid 1px;
+    display: flex;
+}
+
+.sell-item-image-error,
+.sell-item-categories-error,
+.sell-item-condition_id-error,
+.sell-item-name-error,
+.sell-item-description-error,
+.sell-item-price-error {
+    color: hsl(0, 100%, 50%);
+}
+
+.sell-item-button {
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 9px;
+}
+
+.sell-item-button-submit {
+    background-color: #ff5353;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    width: 600px;
+    height: 60px;
+}
